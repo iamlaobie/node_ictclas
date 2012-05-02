@@ -1,0 +1,17 @@
+{
+  "name": "node_ictclas",
+  "description": "Wrapper for ictclas",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iamlaobie/node_ictclas",
+  "author": "iamlaobie <iamlaobie@gmail.com>",
+  "main": "ictclas",
+  "directories": {
+    "lib": "."
+  },
+  "scripts": {
+
+  },
+  "engines": {
+    "node": "*"
+  }
+}
