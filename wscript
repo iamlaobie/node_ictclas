@@ -15,3 +15,4 @@ def build(bld):
   obj.lib = ["ICTCLAS50"]
   obj.target = 'ictclas'
   obj.source = 'ictclas.cpp'
+  obj.install_path = "${NODE_PATH}"
