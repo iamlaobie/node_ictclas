@@ -58,9 +58,6 @@ void Init(Handle<Object> target) {
 
   target->Set(String::NewSymbol("importDictFile"),
       FunctionTemplate::New(importDictFile)->GetFunction());
-
-  target->Set(String::NewSymbol("importDictWords"),
-      FunctionTemplate::New(importDictWords)->GetFunction());
 }
 
 NODE_MODULE(ictclas, Init)
