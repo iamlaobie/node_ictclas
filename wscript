@@ -11,7 +11,7 @@ def configure(conf):
 
 def build(bld):
   obj = bld.new_task_gen('cxx', 'shlib', 'node_addon')
-  obj.cxxflags = ["-g", "-m64", "-Wall", "-DOS_LINUX"]
+  obj.cxxflags = ["-g", "-Wall", "-DOS_LINUX"]
   obj.lib = ["ICTCLAS50"]
   obj.target = 'ictclas'
   obj.source = 'ictclas.cpp'
